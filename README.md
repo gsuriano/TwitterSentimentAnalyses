@@ -1,7 +1,10 @@
-# TwitterSentimentAnalyses
+# Twitter Sentiment Analysis
+Repository for the Data Science Lab course final project. 
 
-During my first year of my MSc I attended the Data Science Lab course, made up of theoretical lectures and practical lab sessions that served the scope of empowering me and my fellow students to get a first glimpse of both the complexity and the beauty of the Data Science Pipeline.
+As final project for the Data Science Lab course at Politecnico di Torino, me and my teammate for this project, Pietro Montresori, have developed an algorithm which performs Sentiment Analysis. 
 
-In this context, I had the chance to experiment the notions learned during the lectures to carry out on my own a Speech Recognition task. At the end of this specific Lab, the TAs asked us to volontaurly write down a paper in the standard IEEE format to document the process we carried out, our intuitions and the approach we followed.
+The used data are in the publicly available *sentiment140* dataset, and as in most Data Science competitions were splitted in a public part, upon which training the model, and a private part, to do predictions to finally be evaluated. Up to 4 points over 31 were assigned with respect to a leaderboard defined in the proprietary Politecnico platform, DSLE. 
 
-This paper is presented in the Release to this repo. Feel free to read it and give me feedbacks if you wish so!
+The approach I and my teammate have proposed is basically rooted on text: even though informations about the user logically can help the model predicting the sentiment, this information were not part of the dataset and, for the sake of generality (and re-usability) we then preferred to direct our efforts into building a model who takes as input for the sentiment prediction text only. 
+
+More details related to our approach are presented in the paper associated with this project. 
